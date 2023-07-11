@@ -1,0 +1,97 @@
+* {
+  font-family: monospace;
+}
+
+body {
+  background-color: rgb(4, 34, 5);
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+  }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 5px;
+  border-bottom: 1px solid rgb(9, 61, 11);
+}
+
+ul li {
+  display:inline-block;
+  list-style-type:none;
+  margin-right: 20px;
+  font-size: large;
+}
+
+input {
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid rgb(0, 84, 3);
+}
+
+.container {
+  width: 800px;
+  margin: 100px auto;
+  padding: 2px 20px 20px 20px;
+  background-color: rgb(214, 233, 215);
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 6px 20px;
+  background-color: rgb(237, 242, 237);
+}
+
+th {
+  text-align: left;
+  padding: 6px 0 6px 20px;
+  background-color: rgb(149, 174, 150);
+}
+
+a, a:visited, a:focus {
+  color: rgb(14, 157, 19);
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: rgb(10, 204, 16);
+  text-shadow: 0 0 1px rgb(0, 255, 8), 0 0 1px rgb(19, 156, 23);
+  transition: 1s;
+}
+
+.voetnoot {
+  margin: 30px 0 10px 0;
+  padding: 10px 0 0 0;
+  text-align: center;
+  color: rgb(108, 147, 109);
+  border-top: 1px solid rgb(108, 147, 109);
+}
+
+input[type=submit] {
+  font-weight: 600;
+  color: rgb(14, 157, 19);
+}
+
+input[type=submit]:hover {
+  box-shadow: 2px 2px 5px rgb(14, 157, 19);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.intro {
+  width: 300px;
+  margin: auto;
+  padding: 4px 20px 20px 20px;
+  background-color: rgb(131, 221, 134);
+  border-radius: 5px;
+}

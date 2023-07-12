@@ -16,8 +16,12 @@ if (isset($_POST['submit'])) {
         $statement->execute();
 
         $result = $statement->fetchAll();
+
+        $connection = null;
+        $sql = null;
     } catch (PDOException $error) {
         echo $sql . "<br>" . $error->getMessage();
+        die();
     }
 }
 
@@ -63,7 +67,6 @@ if (isset($_POST['submit'])) {
     <?php } else { ?>
         <br>Geen resultaten gevonden voor <?php echo escape($_POST['Artiest']); ?>.
 <?php }
-} 
-
+}
 
 include "templates/footer.php"; ?>

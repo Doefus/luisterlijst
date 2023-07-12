@@ -19,7 +19,13 @@
                 <a href="create.php"><strong>Voeg nummer toe</strong></a>
             </li>
             <li>
+                <strong>|</strong>
+            </li>
+            <li>
                 <a href="find.php"><strong>Zoek nummer</strong></a>
+            </li>
+            <li>
+                <strong>|</strong>
             </li>
             <li>
                 <a href="read.php"><strong>Luisterlijst</strong></a>

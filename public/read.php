@@ -9,8 +9,7 @@ if (isset($_GET["id"])) {
   try {
     $connection = new PDO($dsn, $username, $password, $options);
 
-    $id = $_GET["id"];
-
+    $id = preg_replace("/[^0-9]/", "", $_GET["id"]);
     $sql = "DELETE FROM nummers WHERE id = :id";
 
     $statement = $connection->prepare($sql);
@@ -18,22 +17,29 @@ if (isset($_GET["id"])) {
     $statement->execute();
 
     $success = "Nummer succesvol verwijderd";
+
+    $connection = null;
+    $sql = null;
   } catch (PDOException $error) {
     echo $sql . "<br>" . $error->getMessage();
+    die();
   }
 }
 
 try {
   $connection = new PDO($dsn, $username, $password, $options);
-
   $sql = "SELECT * FROM nummers";
 
   $statement = $connection->prepare($sql);
   $statement->execute();
 
   $result = $statement->fetchAll();
+
+  $connection = null;
+  $sql = null;
 } catch (PDOException $error) {
   echo $sql . "<br>" . $error->getMessage();
+  die();
 }
 ?>
 <?php require "templates/header.php"; ?>
@@ -67,8 +73,8 @@ if ($result) {
       <?php endforeach; ?>
     </tbody>
   </table><?php } else {
-    echo "Er zijn geen nummers gevonden";
-    }?>
+          echo "Er zijn geen nummers gevonden";
+        } ?>
 
 <?php
 if ($success) {

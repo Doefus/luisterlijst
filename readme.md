@@ -4,6 +4,7 @@
 - Installeer Xampp via https://www.apachefriends.org/download.html
 - Installeer VSC via https://code.visualstudio.com/download
 - Installeer de plugins PHP, PHP Server, PHP Intelephense
+- Ga naar Windows Systeeminfo > Geavanceerde systeeminstellingen > Omgevingsvariabelen > Path > Voeg "C:\xampp\php" toe
 
 ## Stap 1 - config aanpassen
 - Open config.php

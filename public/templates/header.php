@@ -16,6 +16,12 @@
         <h1>Muziek luisterlijst</h1>
         <ul>
             <li>
+                <a href="index.php"><strong>Home</strong></a>
+            </li>
+            <li>
+                <strong>|</strong>
+            </li>
+            <li>
                 <a href="create.php"><strong>Voeg nummer toe</strong></a>
             </li>
             <li>

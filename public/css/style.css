@@ -89,7 +89,7 @@ input[type=submit]:hover {
 }
 
 .intro {
-  width: 300px;
+  width: 600px;
   margin: auto;
   padding: 4px 20px 20px 20px;
   background-color: rgb(131, 221, 134);

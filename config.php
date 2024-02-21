@@ -1,8 +1,8 @@
 <?php
 
 $host       = "localhost";
-$username   = "root";
-$password   = "root";
+$username   = "root"; // pas deze eventueel aan
+$password   = "root"; // pas deze eventueel aan
 $dbname     = "LuisterLijst";
 $dsn        = "mysql:host=$host;dbname=$dbname";
 $options    = array(

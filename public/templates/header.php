@@ -37,3 +37,8 @@
                 <a href="read.php"><strong>Luisterlijst</strong></a>
             </li>
         </ul>
+
+<!--
+1 - Waarom stopt de code hier ineens?
+2 - Waar wordt dit bestand allemaal gebruikt, kan je dat terugvinden?
+-->

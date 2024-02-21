@@ -13,8 +13,8 @@
 - Wat genereert header.php precies?<br>
 - Welk bestand zorgt voor de styling?<br>
 - Zoek naar de query’s op de Luisterlijst pagina:<br>
-&nbsp;&nbsp;&nbsp;> Download de lijst <br>
-&nbsp;&nbsp;&nbsp;> Verwijder een entry <br>
+&nbsp;&nbsp;&nbsp;> Tonen (select) van de lijst <br>
+&nbsp;&nbsp;&nbsp;> Verwijderen (delete) van een entry <br>
 - Zoek de code op de Voeg nummer toe pagina: <br>
 &nbsp;&nbsp;&nbsp;> Die er voor zorgt dat een jaar altijd een integer is <br>
 &nbsp;&nbsp;&nbsp;> Dat een SQL verbinding verbroken wordt <br>
